@@ -38,7 +38,7 @@
           <ul class="nav__list grid">
             <li class="nav__item">
               <a href="#home" class="nav__link">
-                <i class="uil uil-estate"></i>Home
+                <i class="uil uil-estate nav__icon"></i>Home
                 <!--if this doesn't work go to Section 3 video 7-->
               </a>
             </li>
@@ -95,51 +95,84 @@
         <div class="home__container container grid">
 
           <div class="home__content grid">
-            <a href="" target="_blank" class="home__social-icon" id="myLinkedIn">
-              <i class="uil uil-linkedin-alt"></i>
-            </a>
+            <div class="home__social">
+              <a href="https://www.linkedin.com/in/brettkfuller/" target="_blank" class="home__social-icon" id="myLinkedIn">
+                <i class="uil uil-linkedin-alt"></i>
+              </a>
 
-            <a href="" target="_blank" class="home__social-icon" id="myInstagram">
-              <i class="uil uil-instagram"></i>
-            </a>
+              <a href="https://www.instagram.com/brettifull/" target="_blank" class="home__social-icon" id="myInstagram">
+                <i class="uil uil-instagram"></i>
+              </a>
 
-            <a href="" target="_blank" class="home__social-icon" id="myGithub">
-              <i class="uil uil-github-alt"></i>
-            </a>
+              <a href="https://github.com/brettkfuller" target="_blank" class="home__social-icon" id="myGithub">
+                <i class="uil uil-github-alt"></i>
+              </a>
 
-            <a href="" target="_blank" class="home__social-icon" id="myFacebook">
-              <i class="uil uil-facebook-f"></i>
-            </a>
-
-            </a>
+              <a href="https://www.facebook.com/brettkfuller/" target="_blank" class="home__social-icon" id="myFacebook">
+                <i class="uil uil-facebook-f"></i>
+              </a>
+            </div>
           </div>
 
           <div class="home__data">
             <small class="home_welcome s-color"> Welcome to my Portfolio Website!</small>
             <h1 class="home__title"> Hello, I am Brett </h1>
-            <h3 class="home__subtitles" id="home-bio">
-              <div id="typewriter">
-              </div>
-            </h3>
+            <div id="typewriter"></div>
+            <h3 class="home__subtitle" id="home-bio">A current computer science student who is passionate about technology and web development. Passionate on learning new things. I really like rock and metal music and playing guitar and bass.</h3>
             <a href="#contact" class="button button--flex">
               Contact Me: <i class="uil uil-message button__icon"></i>
             </a>
           </div>
-
-          <div class="home__scroll">
-            <a href="#about" class="home__scroll-button button--flex">
-              <i class="uil uil-mouse-alt"></i>
-              <span class="home__scroll-name"> Scroll Down </span>
-              <i class="uil uil-arrow-down home__scroll-arrow"></i>
-            </a>
-          </div>
-
         </div>
+
+        <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <!-- <span class="home__scroll-name"> Scroll Down </span> -->
+            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          </a>
+        </div>
+
       </section>
 
       <!----------------- ABOUT ME --------------->
       <section class="about section" id="about">
+        <h2 class="section__title">About</h2>
+        <span class="section__subtitle">My Introduction</span>
 
+        <div class="about__containter container grid">
+          <img src="assets/img/" alt="my achievement photo" class="about__img">
+
+          <div class="about__data">
+            <p class="about__description" id="home-about">
+              Web developer, with extensive knowledge and years of experience, working with web technologies and designing. Devlivering quality works.
+            </p>
+          </div>
+
+          <div class="about__info">
+            <div>
+              <span class="about__info-title"> 02+</span>
+              <span class="about__info-name"> Years <br> Experience </span>
+            </div>
+
+            <div>
+              <span class="about__info-title"> 10+</span>
+              <span class="about__info-name"> Years <br> Projects </span>
+            </div>
+
+            <div>
+              <span class="about__info-title"> 02+</span>
+              <span class="about__info-name"> Companies <br> Worked </span>
+            </div>
+          </div>
+
+          <div class="about__buttons">
+            <a href="assets/file/Brett_Fuller_Resume_2022.docx" downloads="my_CV" target="_blank" class="button button--flex">
+              Download CV <i class="uil uil-file-download-alt button__icon"></i>
+            </a>
+          </div>
+
+        </div>
       </section>
 
 
@@ -164,7 +197,6 @@
 
     <!----------------- FOOTER --------------->
     <footer class="footer">
-      <a href="https://iconscout.com/icons/house" target="_blank">Home Icon</a> by <a href="https://iconscout.com/contributors/unicons" target="_blank">Unicons Font</a>
     </footer>
 
 
